@@ -5,6 +5,7 @@ Library     OperatingSystem
 
 *** Test Case ***
 TC1 Multiple Tabs
+    Append To Environment Variable    Path  C:\\Robot
     Open Browser    url=https://www.db4free.net/    browser=gc
     Maximize Browser Window
     Set Selenium Implicit Wait    30s
